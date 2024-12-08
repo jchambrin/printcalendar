@@ -1,5 +1,5 @@
 module github.com/jchambrin/printcalendar
 
-go 1.16
+go 1.23
 
-require github.com/SebastiaanKlippert/go-wkhtmltopdf v1.7.2
+require github.com/SebastiaanKlippert/go-wkhtmltopdf v1.9.3

@@ -31,7 +31,7 @@ func main() {
 	t := template.Must(template.New("index.html").Parse(tmpl))
 
 	htmlFiles := make([]string, 0)
-	arr := buildCalendarData(2022)
+	arr := buildCalendarData(2025)
 	for _, data := range arr {
 		buf := new(bytes.Buffer)
 		err := t.Execute(buf, data)
